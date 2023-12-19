@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=devive-width, initial-scale = 1.0"> -->
+	<title>
+		Figma
+	</title>
+	<link rel="stylesheet" href="Figma.css">
+</head>
+
+
+<body>
+    <div class="outer-cell">
+	    <div>
+	     <div>
+	     	 <h2 class="hr-lines">Bundle & Save</h2>
+	     </div>
+	    </div>
+	     <div class="input-box">
+	      <div class="input-boxes" id="input-box-1-1" onclick="inputBox_1()">
+	     	<div class="input-box-1" >
+	     		<div class="input-box-radio">
+	     			<form name="formForRadio1">
+	     			  <input type="radio" name="radioName1" id="value1"/>
+	     			</form>
+	     		</div>
+	     		<div class="input-box-price">
+	     				<div class="item-size"> 1 Pair </div>
+	     				<div class="item-price"> DKK 195.00 </div>
+	     		</div>
+	     		<div class="input-box-discount">
+	     			<h2> 50% OFF </h2>
+	     		</div>
+	     	</div>
+			<div class="hide-show" style="display: none"  id="value1-inputs">
+				<div class="input-select-box">
+					<div>
+						<label> Size </label>
+						<label> Colour </label>
+					</div>
+					<div class="select-box">
+						<t1> #1 </t1>
+						<select>
+							<option value="small">S</option>
+							<option value="medium">M</option>
+							<option value="large">L</option>
+							<option value="extra-large">XL</option>
+						</select>
+						<select>
+							<option value="">Color</option>
+							<option value="red">Red</option>
+							<option value="blue">Blue</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					
+				</div>
+	     	</div>
+	     </div>
+	     <div class="input-boxes" id="input-box-1-2" onclick="inputBox_2()"style="max-height: 450px !important;border: 2px solid #3da200; background-color: #e3fed2;">
+	     	<div class="input-box-1" >
+	     		<div class="input-box-radio">
+	     			<form name="formForRadio2">
+	     			  <input type="radio" name="radioName1" id="value2" checked= true/>
+	     			</form>
+	     		</div>
+	     		<div class="input-box-price">
+	     				<div class="item-size"> 2 Pair </div>
+	     				<div class="item-price"> 
+	     					DKK 345.00 
+	     					<del>DKK 195.00</del>
+	     				</div>
+	     		</div>
+	     		<div class="input-box-discount" style="display: block;margin-top: 4%;">
+	     			<div class="discount-1"> Most Popular </div>
+	     			<div class="discount-2"> 40% OFF </div>
+	     		</div>
+	     	</div>
+			<div class="hide-show" style="display: block;" id="value2-inputs">
+				<div class="input-select-box">
+					<div>
+						<label> Size </label>
+						<label> Colour </label>
+					</div>
+					<div class="select-box">
+						<t1> #1 </t1>
+						<select>
+							<option value="small">S</option>
+							<option value="medium">M</option>
+							<option value="large">L</option>
+							<option value="extra-large">XL</option>
+						</select>
+						<select>
+							<option value="">Color</option>
+							<option value="red">Red</option>
+							<option value="blue">Blue</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					<div class="select-box">
+						<t1> #2 </t1>
+						<select>
+							<option value="small">S</option>
+							<option value="medium">M</option>
+							<option value="large">L</option>
+							<option value="extra-large">XL</option>
+						</select>
+						<select>
+							<option value="">Color</option>
+							<option value="red">Red</option>
+							<option value="blue">Blue</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					
+				</div>
+	     	</div>
+	     </div>
+		<div class="input-boxes" id="input-box-1-3" style="max-height: 500px !important" onclick="inputBox_3()">
+	     	<div class="input-box-1" >
+	     		<div class="input-box-radio">
+	     			<form name="formForRadio1">
+	     			  <input type="radio" name="radioName1" id="value3"/>
+	     			</form>
+	     		</div>
+	     		<div class="input-box-price">
+	     				<div class="item-size"> 3 Pair </div>
+	     				<div class="item-price"> DKK 528.00 </div>
+	     		</div>
+	     		<div class="input-box-discount">
+	     			<h2> 60% OFF </h2>
+	     		</div>
+	     	</div>
+			<div class="hide-show" style="display: none; " id="value3-inputs">
+				<div class="input-select-box">
+					<div>
+						<label> Size </label>
+						<label> Colour </label>
+					</div>
+					<div class="select-box">
+						<t1> #1 </t1>
+						<select>
+							<option value="small">S</option>
+							<option value="medium">M</option>
+							<option value="large">L</option>
+							<option value="extra-large">XL</option>
+						</select>
+						<select>
+							<option value="">Color</option>
+							<option value="red">Red</option>
+							<option value="blue">Blue</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					<div class="select-box">
+						<t1> #2 </t1>
+						<select>
+							<option value="small">S</option>
+							<option value="medium">M</option>
+							<option value="large">L</option>
+							<option value="extra-large">XL</option>
+						</select>
+						<select>
+							<option value="">Color</option>
+							<option value="red">Red</option>
+							<option value="blue">Blue</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					<div class="select-box">
+						<t1> #3 </t1>
+						<select>
+							<option value="small">S</option>
+							<option value="medium">M</option>
+							<option value="large">L</option>
+							<option value="extra-large">XL</option>
+						</select>
+						<select>
+							<option value="">Color</option>
+							<option value="red">Red</option>
+							<option value="blue">Blue</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					
+				</div>
+	     	</div>
+	     </div>
+	
+	     <div class="container-footer">
+	     	<div class="footer-text-1">
+	     		<div  style="color:#3da200; font-size: 12px; cursor: pointer;">Free 2 Day Shipping</div>
+	     		<div id="total-amount"> Total : DKK 360.00</div>
+	     	</div>
+	     	<div class="footer-button">
+	     		<div class="button-text"><p>+ Add to Cart </p></div>
+	     	</div>
+	     	<div class="footer-text-2">
+	     		&copy Powered by Pumper
+	     	</div>
+	     </div>
+    </div>
+<body>
+	<script src="Figma.js">	
+	</script>
+</html>	
